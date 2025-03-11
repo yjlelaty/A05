@@ -1,0 +1,69 @@
+/* the styles for the elements */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%; /* text/font - size */
+}
+
+
+/* the styles for the header */
+/* The descendant selector — represented by a single space ( ) character,
+  is used to select elements nested inside a parent element */
+
+header img {
+	float: left; /* floating image to the left */
+}
+/* Step 5. Styles for h2 within header*/
+header h2 {
+  font-size: 170%; /* Setting font-size to 170% */
+  color: #800000; /* Setting color to #800000 */
+  text-indent: 30px;  /* Indenting by 30px */
+}
+/*  Styles for h3 within header*/
+header h3 {
+  font-size: 130%; /* Setting font-size to 130% */
+  font-style: italic; /* Setting font-style to italic */
+  text-indent: 30px;  /* Indenting by 30px */
+}
+
+
+/* the styles for the main section */
+
+main {
+  clear: left; /* clearing floats */
+}
+/* Step 7: Style Rules for h1 within main */
+main h1 {
+  font-size: 150%; /* Setting font-size to 150% */
+}
+/* Step 8: Style Rules for h2 within main */
+main h2 {
+  font-size: 130%; /* Setting font-size to 130% */
+  color: #800000; /* Setting color to #800000 */
+}
+/* Step 9: Style Rules for h3 within main */
+main h3 {
+  font-size: 105%; /* Setting font-size to 105% */
+}
+/* Step 9: Style Rules for h3 within main */
+main h3 {
+  font-size: 105%; /* Setting font-size to 105% */
+}
+/* Step 10: Style Rules for anchor links within main that has focus or mouse hover */
+main a:focus, main a:hover {
+  font-style: italic;
+}
+
+
+/* the styles for the footer */
+
+/* Step 11: Style rule for <p> paragraph tag within footer */
+footer p {
+  text-align: center;  /* Centering text  */
+}
+
+
+/* Step 17: Adding text shadow to "75th" */
+.shadow {
+  text-shadow: 1px 1px #800000;
+}
